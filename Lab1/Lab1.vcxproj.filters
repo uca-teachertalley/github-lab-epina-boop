@@ -15,12 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\temp\Talley2ndLect\main.cpp">
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\temp\Talley2ndLect\MessageBox.h">
+    <ClInclude Include="MessageBox.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
